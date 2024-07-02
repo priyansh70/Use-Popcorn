@@ -56,6 +56,11 @@ export default function App() {
   return (
     <>
       <Navbar>
+<<<<<<< HEAD
+=======
+        <Logo />
+        <Search />
+>>>>>>> c8f176627688623f97f09de309b8764a40e1e11c
         <NumResults movies={movies} />
       </Navbar>
       <Main movies={movies} />
@@ -64,12 +69,16 @@ export default function App() {
 }
 
 function Navbar({ children }) {
+<<<<<<< HEAD
   return (
     <nav className="nav-bar">
       <Logo />
       {children}
     </nav>
   );
+=======
+  return <nav className="nav-bar">{children}</nav>;
+>>>>>>> c8f176627688623f97f09de309b8764a40e1e11c
 }
 
 function Search() {
